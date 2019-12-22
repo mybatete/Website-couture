@@ -1,0 +1,327 @@
+body, html {
+  height: 100%;
+}
+h1, h2{
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: Alex;
+  font-weight: bold;
+  
+  
+}
+ 
+@font-face{
+  font-family: "Alex";
+  src: url(../Fonts/alex-brush/AlexBrush-Regular.ttf) format('opentype');
+}
+@font-face{
+  font-family: "Dancing-Script";
+  src: url(../Fonts/Dancing_Script/DancingScript-Regular.ttf);
+}
+@font-face{
+  font-family: "Shadow-Into-Light";
+  src: url(../Fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+main{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-family: Alex; */
+  text-align: center;
+  padding: 0.7%;
+  margin: 0.7%;
+  float: left;
+  width: 70%;
+  border-right: 2px solid black;
+  font-size: 80%;
+}
+
+aside{
+  float:right;
+  font-family: abril-fatface, serif;
+  text-align: center;
+  padding: 0.7%;
+  margin: 0.7%;
+  width: 25%;
+  /* border: 2px solid black; */
+}
+aside h1  {
+  border: 2px solid black;
+  border-radius: 50px 20px;
+  padding: 0;
+
+}
+#one{
+  font-family: Dancing-Script;
+}
+#two{
+  font-family: Shadow-Into-Light;
+}
+
+.parallax {
+  /* The image used */
+  background-image:url('../media/bck.jpg');
+  /* Photo by nebulosagrafica */
+
+  /* Full height */
+  height: 100%; 
+  width:100%;
+
+
+  position: relative;
+  text-align: center;
+  color: white;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  .header h2 {
+    text-align: center;
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+  }
+  
+  .content {
+    /* padding: 100px 0; */
+    /* margin: 50px auto 0 auto; */
+    width: 100%;
+  }
+
+
+body {
+font-family: Helvetica, Arial, sans-serif;
+/** my input**/
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** color applied using the hex code (for white) and by color name (for black) **/ 
+header {
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+/** overrides foundations default style and allows my header to go 100% of the screen width **/
+header.grid-container {
+    max-width: 100rem;
+}
+
+/** The max-width and margin property keeps the content within my main element 80% of the screen width and centered on the page **/ 
+/* main {
+    padding-top: 2em;
+    max-width: 100rem;
+    margin: auto;
+} */
+
+/** The display property (inline-block) displays my navigation items horizontally **/
+nav ul li a {
+    display: inline-block;
+    color:#ffffff;
+    background: rgb(94, 42, 42);
+    width: 125px;
+    margin-top: 2em;
+
+}
+/**Adds a hover effect to the navigation (changes the text color to black) **/
+nav ul li a:hover, nav ul li a:focus {
+    color: black;
+}
+@font-face{
+  font-family: "Indie_Flower";
+  src: url(../Fonts/Indie_Flower/IndieFlower-Regular.ttf) format('opentype');
+}
+h4{
+  font-family:Indie_Flower;
+}
+
+footer {
+    background: #333333;
+    color: white;
+    min-height: 2.75rem;
+    text-align: center;
+
+}
+section p{
+  padding-left: 15%;
+  padding-right:15% ;
+  text-align: center;
+}
+/* section img {
+    float: left;
+    padding-right: .75em;
+
+} */
+/** Adds the padding to all sides of the article (top, right, bottom, left) **/
+article.focal {
+    padding: 0 1em 1em 1em;
+}
+section{
+  clear: both;
+  border-top: 2px solid black;
+  padding: 7% 5% 7% 5%;
+  text-align: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+} 
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  src: url(../media/avatar.jp);
+  border-radius: 5px 5px 0 0;
+}
+/** Adds padding evenly (1em) to all sides **/
+section.atf {
+    padding: 1em;
+    background: #ededed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header2 {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333333;
+}
+
+/* last */
+.container3 {
+  background-image: url();
+  position: relative;
+  width: 50%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
